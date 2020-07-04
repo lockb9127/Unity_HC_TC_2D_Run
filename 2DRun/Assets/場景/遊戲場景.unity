@@ -5338,6 +5338,7 @@ GameObject:
   - component: {fileID: 195413768}
   - component: {fileID: 195413769}
   - component: {fileID: 195413770}
+  - component: {fileID: 195413771}
   m_Layer: 0
   m_Name: "\u6BAD\u5C4D"
   m_TagString: Untagged
@@ -5465,6 +5466,25 @@ CapsuleCollider2D:
   m_Offset: {x: -0.36588177, y: -0.5226871}
   m_Size: {x: 1.58202, y: 4.144625}
   m_Direction: 0
+--- !u!114 &195413771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195413765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92b3824bbc66c5f4eb3b6c54313402da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blood: 99
+  jump: 43.8
+  bulict: 10
+  speed: 29.9
+  jumpsound: {fileID: 8300000, guid: 7e341ac530bfbf44d8c23521cdff9d54, type: 3}
+  shootsound: {fileID: 8300000, guid: 1ffe524e0afc2b64c9a9278ef676973e, type: 3}
+  dear: 0
 --- !u!1001 &250017108
 PrefabInstance:
   m_ObjectHideFlags: 0
